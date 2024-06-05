@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: const Color.fromARGB(255, 225, 151, 176),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        title: const Text("Cat Commerce"),
+        
         leading: Builder(builder: (context)=>
 
           IconButton(
