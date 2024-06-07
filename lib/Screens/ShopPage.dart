@@ -61,8 +61,9 @@ class _ShopPageState extends State<ShopPage> {
           ),
           Expanded(
             child: ListView.builder(
-                itemCount: 4,
-                scrollDirection: Axis.horizontal,
+                itemCount: value.shopCats.length,
+                scrollDirection: Axis.vertical,
+                
                 itemBuilder: (context, index) {
                   Cat newCat = value.getShop()[index];
                   // instance of a cat

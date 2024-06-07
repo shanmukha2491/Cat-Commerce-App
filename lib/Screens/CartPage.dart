@@ -32,6 +32,7 @@ class _CartPageState extends State<CartPage> {
               ),
 
               getWidget(value),
+             
             ],
           ),
         ),
